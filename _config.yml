@@ -2,6 +2,7 @@
 #
 markdown:         redcarpet
 
+
 redcarpet:
   extensions:   ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
@@ -14,7 +15,7 @@ paginate:       10
 paginate_path:  "/index/page:num"
 
 # Server
-host:             0.0.0.0
+host:             127.0.0.1
 port:             9001
 baseurl:          /
 url:              http://localhost:9001
